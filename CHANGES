@@ -1,0 +1,2 @@
+2015-02-04:
+- release updated annotations. Notably, many negative annotations have been removed: the similarity annotations capture similarity relations, not common ancestral taxa in case of homology; as a result, it is, e.g., not a conflict to state that a structure exhibits evidence of homology among both vertebrata and chordata; it is a conflict to state that a structure exhibits evidence of homology among chordata on the one hand, and to state that the common ancestral taxon for this structure is vertebrata (no homology should be present at the chordata level then).
