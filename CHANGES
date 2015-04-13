@@ -1,3 +1,7 @@
+2015-04-14: 
+- update annotations, notably to add single-entity annotations corresponding to the "split" of multiple-entities annotations
+- fix bugs in annotation inference based on logical constraints
+
 2015-04-13: 
 - update annotations
 - annotations are now provided in 3 files: raw annotations, summary annotations, and homology ancestral taxa annotations

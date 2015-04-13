@@ -76,7 +76,7 @@ HOM:0000007	historical homology	UBERON:0000106	zygote stage	33208	Metazoa	CIO:00
 HOM:0000007	historical homology	UBERON:0000107	cleavage stage	33213	Bilateria	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000109	gastrula stage	33213	Bilateria	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000111	organogenesis stage	33213	Bilateria	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0000115	lung epithelium	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0000115	lung epithelium	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000151	pectoral fin	8287	Sarcopterygii	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000151|UBERON:0001460	pectoral fin|arm	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000151|UBERON:0002102	pectoral fin|forelimb	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -86,7 +86,7 @@ HOM:0000007	historical homology	UBERON:0000152|UBERON:0002103	pelvic fin|hindlim
 HOM:0000007	historical homology	UBERON:0000160	intestine	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000162	cloaca	7742	Vertebrata	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0000164	primitive urogenital sinus	40674	Mammalia	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0000165	mouth	33213	Bilateria	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0000165	mouth	33213	Bilateria	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Eumetazoa
 HOM:0000007	historical homology	UBERON:0000173	amniotic fluid	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000178	blood	33208	Metazoa	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0000203	pallium	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -108,18 +108,18 @@ HOM:0000007	historical homology	UBERON:0000375	mandibular nerve	7742	Vertebrata	
 HOM:0000007	historical homology	UBERON:0000376	hindlimb stylopod	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000377	maxillary nerve	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000395	cochlear ganglion	89593	Craniata	CIO:0000018	confidence statement from congruent evidence lines of same type, overall confidence low	
-HOM:0000007	historical homology	UBERON:0000397	colonic epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0000397	colonic epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000398	cartilage tissue of sternum	8292	Amphibia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000398	cartilage tissue of sternum	8492	Archosauria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000398	cartilage tissue of sternum	40674	Mammalia	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0000400	jejunal epithelium	32524	Amniota	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0000428	prostate epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0000400	jejunal epithelium	32524	Amniota	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0000428	prostate epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000468	multi-cellular organism	33208	Metazoa	CIO:0000003	high confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Eukaryota
 HOM:0000007	historical homology	UBERON:0000473	testis	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
 HOM:0000007	historical homology	UBERON:0000474	female reproductive system	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000478	extraembryonic structure	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000482	basal lamina of epithelium	33213	Bilateria	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0000483	epithelium	2759	Eukaryota	CIO:0000014	confidence statement from congruent evidence lines of multiple types, overall confidence low	
+HOM:0000007	historical homology	UBERON:0000483	epithelium	33208	Metazoa	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Eukaryota
 HOM:0000007	historical homology	UBERON:0000922	embryo	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000923	germ layer	33213	Bilateria	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0000924	ectoderm	33213	Bilateria	CIO:0000003	high confidence from single evidence	
@@ -212,7 +212,7 @@ HOM:0000007	historical homology	UBERON:0001132	parathyroid gland	32523	Tetrapoda
 HOM:0000007	historical homology	UBERON:0001134	skeletal muscle tissue	33213	Bilateria	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0001135	smooth muscle tissue	33213	Bilateria	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001140	renal vein	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001143	hepatic vein	7711	Chordata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001143	hepatic vein	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001144	testicular vein	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
 HOM:0000007	historical homology	UBERON:0001145	ovarian vein	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
 HOM:0000007	historical homology	UBERON:0001146	suprarenal vein	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
@@ -231,7 +231,7 @@ HOM:0000007	historical homology	UBERON:0001179	peritoneal cavity	40674	Mammalia	
 HOM:0000007	historical homology	UBERON:0001184	renal artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001187	testicular artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
 HOM:0000007	historical homology	UBERON:0001190	ovarian artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
-HOM:0000007	historical homology	UBERON:0001193	hepatic artery	7711	Chordata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001193	hepatic artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001194	splenic artery	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001202	pyloric sphincter	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001216	jejunal vein	32524	Amniota	CIO:0000004	medium confidence from single evidence	
@@ -250,8 +250,8 @@ HOM:0000007	historical homology	UBERON:0001264	pancreas	89593	Craniata	CIO:00000
 HOM:0000007	historical homology	UBERON:0001269	acetabular part of hip bone	1338369	Dipnotetrapodomorpha	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001273	ilium	1338369	Dipnotetrapodomorpha	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0001276	epithelium of stomach	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001277	intestinal epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0001278	epithelium of large intestine	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001277	intestinal epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001278	epithelium of large intestine	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001280	liver parenchyma	7742	Vertebrata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0001281	hepatic sinusoid	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001285	nephron	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -272,14 +272,14 @@ HOM:0000007	historical homology	UBERON:0001331	skin of penis	40674	Mammalia	CIO:
 HOM:0000007	historical homology	UBERON:0001332	prepuce of penis	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001342	mesovarium	89593	Craniata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001343	seminiferous tubule of testis	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001344	epithelium of vagina	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001344	epithelium of vagina	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001359	cerebrospinal fluid	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001366	parietal peritoneum	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001373	sartorius muscle	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001373|UBERON:0013511|UBERON:0014888	sartorius muscle|ambiens muscle|iliotibialis muscle	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001377	quadriceps femoris	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001388	gastrocnemius	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001419	skin of limb	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001419	skin of limb	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001434	skeletal system	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001458	skin of lip	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001459	skin of external ear	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
@@ -287,7 +287,7 @@ HOM:0000007	historical homology	UBERON:0001460	arm	32523	Tetrapoda	CIO:0000004	m
 HOM:0000007	historical homology	UBERON:0001461	elbow	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001464	hip	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001465	knee	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001466	pedal digit	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Dipnotetrapodomorpha
+HOM:0000007	historical homology	UBERON:0001466	pedal digit	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001467	shoulder	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001469	sternoclavicular joint	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001470	glenohumeral joint	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
@@ -301,18 +301,18 @@ HOM:0000007	historical homology	UBERON:0001479	sesamoid bone	117571	Euteleostomi
 HOM:0000007	historical homology	UBERON:0001483	skin of shoulder	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001485	knee joint	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001486	hip joint	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001487	pes joint	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001489	manus joint	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001487	pes joint	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001489	manus joint	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001490	elbow joint	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001506	brachialis muscle	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001507	biceps brachii	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001508	arch of aorta	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001509	triceps brachii	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001510	skin of knee	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001511	skin of leg	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001513	skin of pes	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001511	skin of leg	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001513	skin of pes	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001517	skin of elbow	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001519	skin of manus	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0001519	skin of manus	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001532	internal carotid artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001554	skin of hip	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001555	digestive tract	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -412,11 +412,11 @@ HOM:0000007	historical homology	UBERON:0001765	mammary duct	32524	Amniota	CIO:00
 HOM:0000007	historical homology	UBERON:0001766	anterior chamber of eyeball	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001769	iris	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001771	pupil	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001772	corneal epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001772	corneal epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001773	sclera	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001775	ciliary body	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001776	optic choroid	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001778	ciliary epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001778	ciliary epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001780	spinal nerve	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001782	pigmented layer of retina	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001783	optic disc	7742	Vertebrata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
@@ -432,7 +432,7 @@ HOM:0000007	historical homology	UBERON:0001795	inner plexiform layer of retina	7
 HOM:0000007	historical homology	UBERON:0001796	aqueous humor of eyeball	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001797	vitreous humor	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001798	vitreous body	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001803	epithelium of lens	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001803	epithelium of lens	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001804	capsule of lens	7742	Vertebrata	CIO:0000017	confidence statement from congruent evidence lines of same type, overall confidence high	
 HOM:0000007	historical homology	UBERON:0001805	autonomic ganglion	89593	Craniata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001806	sympathetic ganglion	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -481,7 +481,7 @@ HOM:0000007	historical homology	UBERON:0001897	dorsal plus ventral thalamus	4067
 HOM:0000007	historical homology	UBERON:0001898	hypothalamus	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001899	epithalamus	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001901	epithelium of trachea	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001902	epithelium of small intestine	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001902	epithelium of small intestine	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001905	pineal body	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001911	mammary gland	40674	Mammalia	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0001913	milk	32524	Amniota	CIO:0000004	medium confidence from single evidence	
@@ -496,11 +496,11 @@ HOM:0000007	historical homology	UBERON:0001939	medial mammillary nucleus	7742	Ve
 HOM:0000007	historical homology	UBERON:0001941|ZFA:0000302	lateral habenular nucleus|ventral habenular nucleus (Danio)	117571	Euteleostomi	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0001943	midbrain tegmentum	7742	Vertebrata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0001947	red nucleus	7776	Gnathostomata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001949	gingival epithelium	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001949	gingival epithelium	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001951	epithelium of nasopharynx	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0001952	epithelium of oropharynx	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001952	epithelium of oropharynx	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001954	Ammon's horn	7742	Vertebrata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
-HOM:0000007	historical homology	UBERON:0001976	epithelium of esophagus	33213	Bilateria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0001976	epithelium of esophagus	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001979	venule	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001980	arteriole	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0001981	blood vessel	7711	Chordata	CIO:0000003	high confidence from single evidence	
@@ -518,8 +518,8 @@ HOM:0000007	historical homology	UBERON:0002019	accessory XI nerve	32524	Amniota	
 HOM:0000007	historical homology	UBERON:0002020	gray matter	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002023	claustrum of brain	32525	Theria	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Mammalia
 HOM:0000007	historical homology	UBERON:0002028	hindbrain	7711	Chordata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
-HOM:0000007	historical homology	UBERON:0002029	epithelium of gall bladder	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0002031	epithelium of bronchus	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0002029	epithelium of gall bladder	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0002031	epithelium of bronchus	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002036	striated muscle tissue	33213	Bilateria	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002037	cerebellum	7776	Gnathostomata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002038	substantia nigra	7777	Chondrichthyes	CIO:0000003	high confidence from single evidence	
@@ -531,7 +531,7 @@ HOM:0000007	historical homology	UBERON:0002046|UBERON:0006870	thyroid gland|endo
 HOM:0000007	historical homology	UBERON:0002048	lung	7776	Gnathostomata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002048|UBERON:0006860	lung|swim bladder	117571	Euteleostomi	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0002049|UBERON:0007798	vasculature|vascular system	33208	Metazoa	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002051	epithelium of bronchiole	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0002051	epithelium of bronchiole	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002062	endocardial cushion	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002063	sinus venosus	7742	Vertebrata	CIO:0000019	confidence statement from congruent evidence lines of same type, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0002064	common cardinal vein	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -604,7 +604,7 @@ HOM:0000007	historical homology	UBERON:0002206	mammillary body	7742	Vertebrata	C
 HOM:0000007	historical homology	UBERON:0002218	tympanic ring	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002218|UBERON:0011079	tympanic ring|angular bone	32523	Tetrapoda	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0002223	endolymphatic sac	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002227	spiral organ of cochlea	8287	Sarcopterygii	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0002227	spiral organ of cochlea	32524	Amniota	CIO:0000003	high confidence from single evidence	Alternative homology hypotheses of low confidence exist for taxa: Sarcopterygii, Tetrapoda
 HOM:0000007	historical homology	UBERON:0002229	interparietal bone	32524	Amniota	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0002241	chondrocranium	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002244	premaxilla	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
@@ -627,13 +627,13 @@ HOM:0000007	historical homology	UBERON:0002302	myocardium of atrium	7742	Vertebr
 HOM:0000007	historical homology	UBERON:0002307	choroid plexus of lateral ventricle	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002314	midbrain tectum	7742	Vertebrata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0002316	white matter	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002325	epithelium of urethra	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0002325	epithelium of urethra	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002328	notochord	33511	Deuterostomia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002329	somite	33213	Bilateria	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0002333	pulmonary trunk	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002336	corpus callosum	9347	Eutheria	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002340	epithelium of main bronchus	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002341	epithelium of segmental bronchus	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0002341	epithelium of segmental bronchus	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002342	neural crest	89593	Craniata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002346	neurectoderm	33208	Metazoa	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002348	epicardium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -660,7 +660,7 @@ HOM:0000007	historical homology	UBERON:0002383	supraspinatus muscle	40674	Mammal
 HOM:0000007	historical homology	UBERON:0002386	forelimb zeugopod	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002387	pes	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002387|UBERON:2000508	pes|pelvic fin radial bone	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002389	manual digit	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Dipnotetrapodomorpha
+HOM:0000007	historical homology	UBERON:0002389	manual digit	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002390	hematopoietic system	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002391	lymph	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002392	nasolacrimal duct	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
@@ -687,8 +687,8 @@ HOM:0000007	historical homology	UBERON:0002418	cartilage tissue	33213	Bilateria	
 HOM:0000007	historical homology	UBERON:0002422	fourth ventricle	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002423	hepatobiliary system	89593	Craniata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002425	visceral serous pericardium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002427	arm skin	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002428	limb bone	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0002427	arm skin	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0002428	limb bone	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002432	pars intermedia of adenohypophysis	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002433	pars tuberalis of adenohypophysis	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002434	pituitary stalk	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -705,7 +705,7 @@ HOM:0000007	historical homology	UBERON:0002465	lymphoid system	32523	Tetrapoda	C
 HOM:0000007	historical homology	UBERON:0002470	autopod region	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Vertebrata
 HOM:0000007	historical homology	UBERON:0002478	orbitosphenoid	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002494	papillary muscle of heart	40674	Mammalia	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0002506	iris epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0002506	iris epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002518	otolith organ	7742	Vertebrata	CIO:0000013	confidence statement from congruent evidence lines of multiple types, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0002527	pancreatic lymph node	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0002532	epiblast (generic)	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -768,26 +768,26 @@ HOM:0000007	historical homology	UBERON:0003129	skull	40674	Mammalia	CIO:0000004	
 HOM:0000007	historical homology	UBERON:0003217	neural lobe of neurohypophysis	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003220	metanephric mesenchyme	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003224	chorion syncytiotrophoblast	9347	Eutheria	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003229	epithelium of elbow	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0003231	epithelium of hip	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0003232	epithelium of knee	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0003233	epithelium of shoulder	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0003235	epithelium of upper jaw	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003229	epithelium of elbow	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003231	epithelium of hip	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003232	epithelium of knee	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003233	epithelium of shoulder	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003235	epithelium of upper jaw	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003236	epithelium of lower jaw	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003238	epithelium of superior semicircular canal	32525	Theria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003239	epithelium of posterior semicircular canal	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003240	epithelium of lateral semicircular canal	32525	Theria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003241	epithelium of utricle	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003242	epithelium of saccule	7898	Actinopterygii	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Gnathostomata
-HOM:0000007	historical homology	UBERON:0003242	epithelium of saccule	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Gnathostomata
+HOM:0000007	historical homology	UBERON:0003242	epithelium of saccule	7898	Actinopterygii	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Gnathostomata
+HOM:0000007	historical homology	UBERON:0003242	epithelium of saccule	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Gnathostomata
 HOM:0000007	historical homology	UBERON:0003243	epithelium of cochlear duct	32525	Theria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003244	epithelium of mammary gland	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003246	epithelium of endolymphatic sac	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003247	epithelium of forearm	8287	Sarcopterygii	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003247	epithelium of forearm	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003249	epithelium of otic placode	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003257	yolk sac endoderm	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003262	amniotic mesoderm	32524	Amniota	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003264	mesoderm of yolk sac	32524	Amniota	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003264	mesoderm of yolk sac	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003265	chorionic mesenchyme	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003267	tooth of upper jaw	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003268	tooth of lower jaw	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
@@ -809,7 +809,7 @@ HOM:0000007	historical homology	UBERON:0003290	meninx of diencephalon	7742	Verte
 HOM:0000007	historical homology	UBERON:0003291	meninx of hindbrain	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003294	gland of foregut	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003297	gland of integumental system	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003304	mesoderm blood island	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003304	mesoderm blood island	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003312	mesenchyme of testis	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
 HOM:0000007	historical homology	UBERON:0003314	eye mesenchyme	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003315	mesenchyme of ovary	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
@@ -825,16 +825,16 @@ HOM:0000007	historical homology	UBERON:0003326	mesenchyme of mammary gland	40674
 HOM:0000007	historical homology	UBERON:0003327	mesenchyme of forearm	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003338	ganglion of peripheral nervous system	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003339	ganglion of central nervous system	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003351	pharyngeal epithelium	33213	Bilateria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003351	pharyngeal epithelium	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003352	epithelium of midgut	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003353	epithelium of hindgut	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003354	epithelium of rectum	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003356	epithelium of nasal septum	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0003357	epithelium of tongue	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003356	epithelium of nasal septum	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003357	epithelium of tongue	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003359	epithelium of submandibular gland	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003360	epithelium of parotid gland	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003361	epithelium of sublingual gland	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003367	epithelium of vomeronasal organ	32524	Amniota	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Tetrapoda
+HOM:0000007	historical homology	UBERON:0003367	epithelium of vomeronasal organ	32524	Amniota	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Tetrapoda
 HOM:0000007	historical homology	UBERON:0003374	chorionic ectoderm	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003379	cardiac muscle of right atrium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003380	cardiac muscle of left atrium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
@@ -842,7 +842,7 @@ HOM:0000007	historical homology	UBERON:0003381|UBERON:0006567	cardiac muscle of 
 HOM:0000007	historical homology	UBERON:0003382|UBERON:0006566	cardiac muscle of left ventricle|left ventricle myocardium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003383	cardiac muscle tissue of interventricular septum	8782	Aves	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003383	cardiac muscle tissue of interventricular septum	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003384	skeletal muscle tissue of pharynx	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003384	skeletal muscle tissue of pharynx	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003386	smooth muscle of eye	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003387	smooth muscle of trachea	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003403	skin of forearm	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
@@ -854,19 +854,19 @@ HOM:0000007	historical homology	UBERON:0003420	mesenchyme of sublingual gland	32
 HOM:0000007	historical homology	UBERON:0003421	mesenchyme of vomeronasal organ	32524	Amniota	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Tetrapoda
 HOM:0000007	historical homology	UBERON:0003425	renal lymph node	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003426	dermis adipose tissue	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	Alternative homology hypotheses of low confidence exist for taxa: Chordata, Vertebrata
-HOM:0000007	historical homology	UBERON:0003431	leg nerve	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003433	arm nerve	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003431	leg nerve	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003433	arm nerve	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003436	shoulder nerve	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003438	iris nerve	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003440	limb nerve	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003441	forelimb nerve	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003442	hindlimb nerve	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003445	pes nerve	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003448	manus nerve	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003440	limb nerve	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003441	forelimb nerve	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003442	hindlimb nerve	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003445	pes nerve	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003448	manus nerve	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003456	respiratory system lymphatic vessel	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003457	head bone	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003460	arm bone	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003464	hindlimb bone	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003460	arm bone	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003464	hindlimb bone	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003466	forelimb zeugopod bone	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003468	ureteric segment of renal artery	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003469	respiratory system artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
@@ -887,25 +887,25 @@ HOM:0000007	historical homology	UBERON:0003498	heart blood vessel	7742	Vertebrat
 HOM:0000007	historical homology	UBERON:0003499	brain blood vessel	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003500	corneal blood vessel	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003501	retina blood vessel	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003503	leg blood vessel	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003503	leg blood vessel	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003504	respiratory system blood vessel	7742	Vertebrata	CIO:0000003	high confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
 HOM:0000007	historical homology	UBERON:0003505	trachea blood vessel	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003507	arm blood vessel	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003507	arm blood vessel	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003509	arterial blood vessel	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003511	iris blood vessel	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003512	lung blood vessel	7776	Gnathostomata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003514	limb blood vessel	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003515	forelimb blood vessel	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003516	hindlimb blood vessel	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003514	limb blood vessel	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003515	forelimb blood vessel	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003516	hindlimb blood vessel	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003517	kidney blood vessel	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003518	main bronchus blood vessel	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003521	pes blood vessel	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003523	manus blood vessel	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003521	pes blood vessel	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003523	manus blood vessel	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003526	respiratory system capillary	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Chordata
 HOM:0000007	historical homology	UBERON:0003527	kidney capillary	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003528	brain gray matter	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003531	forelimb skin	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003532	hindlimb skin	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003531	forelimb skin	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003532	hindlimb skin	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003535	vagus X nerve trunk	89593	Craniata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003544	brain white matter	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003547	brain meninx	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -925,7 +925,7 @@ HOM:0000007	historical homology	UBERON:0003562	midbrain dura mater	32523	Tetrapo
 HOM:0000007	historical homology	UBERON:0003563	telencephalon dura mater	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003564	diencephalon dura mater	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003565	hindbrain dura mater	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003657	limb joint	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003657	limb joint	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003700	temporomandibular joint	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003704	intrahepatic bile duct	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003723	vestibular nerve	89593	Craniata	CIO:0000019	confidence statement from congruent evidence lines of same type, overall confidence medium	
@@ -934,14 +934,14 @@ HOM:0000007	historical homology	UBERON:0003823	hindlimb zeugopod	8287	Sarcoptery
 HOM:0000007	historical homology	UBERON:0003826	upper leg bone	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003831	respiratory system muscle	7742	Vertebrata	CIO:0000003	high confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
 HOM:0000007	historical homology	UBERON:0003832	esophagus muscle	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003839	forelimb joint	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003840	hindlimb joint	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003839	forelimb joint	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0003840	hindlimb joint	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003841	autopod joint	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Vertebrata
 HOM:0000007	historical homology	UBERON:0003842	neural tube lumen	7711	Chordata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0003843	dental epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003844	upper eyelid epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003845	lower eyelid epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003846	thymus epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003846	thymus epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003847	thyroid artery	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003848	gonadal vein	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003849	mesencephalic neural crest	89593	Craniata	CIO:0000004	medium confidence from single evidence	
@@ -964,7 +964,7 @@ HOM:0000007	historical homology	UBERON:0003888	extraembryonic coelom	40674	Mamma
 HOM:0000007	historical homology	UBERON:0003890	Mullerian duct	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003902	retinal neural layer	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003906	cardiac jelly	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0003911	choroid plexus epithelium	7711	Chordata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0003911	choroid plexus epithelium	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003918	kidney mesenchyme	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003920	venous blood vessel	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0003925	photoreceptor inner segment layer	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -982,7 +982,6 @@ HOM:0000007	historical homology	UBERON:0003983|UBERON:0004152|UBERON:0004706	con
 HOM:0000007	historical homology	UBERON:0004062	neural tube marginal layer	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004063	spinal cord alar plate	89593	Craniata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004064	neural tube basal plate	89593	Craniata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004066|UBERON:0009292	frontonasal prominence|embryonic nasal process	40674	Mammalia	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Craniata
 HOM:0000007	historical homology	UBERON:0004103	alveolar ridge	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004113	muscle of auditory ossicle	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004117	pharyngeal pouch	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -1001,7 +1000,7 @@ HOM:0000007	historical homology	UBERON:0004161	septum transversum	89593	Craniata
 HOM:0000007	historical homology	UBERON:0004178	aorta smooth muscle tissue	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004180	mammary gland fat	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004208	nephrogenic mesenchyme	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004211	nephron epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0004211	nephron epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004214	upper leg nerve	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004216	lower arm nerve	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004217	upper arm nerve	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
@@ -1053,19 +1052,19 @@ HOM:0000007	historical homology	UBERON:0004374	vitelline vasculature	32524	Amnio
 HOM:0000007	historical homology	UBERON:0004449	cerebral artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004461	musculature of head	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004463	musculature of hindlimb stylopod	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004466	musculature of leg	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004466	musculature of leg	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004468	set of muscles of vertebral column	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004474	musculature of arm	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004474	musculature of arm	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004475	musculature of hip	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004476	musculature of shoulder	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004477	tongue musculature	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004478	musculature of larynx	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004480	musculature of limb	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004481	musculature of upper limb	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004482	musculature of lower limb	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004480	musculature of limb	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004481	musculature of upper limb	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004482	musculature of lower limb	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004487	musculature of forelimb zeugopod	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004488	musculature of pes	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004489	musculature of manus	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004488	musculature of pes	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004489	musculature of manus	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004495	skeletal muscle tissue of diaphragm	8459	Testudines	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004495	skeletal muscle tissue of diaphragm	8493	Crocodylidae	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004495	skeletal muscle tissue of diaphragm	40674	Mammalia	CIO:0000003	high confidence from single evidence	
@@ -1086,7 +1085,7 @@ HOM:0000007	historical homology	UBERON:0004521	vasculature of muscle organ	33208
 HOM:0000007	historical homology	UBERON:0004522	vasculature of musculoskeletal system	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004523	papillary muscle of right ventricle	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004524	papillary muscle of left ventricle	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004527	alveolar process of maxilla	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004527	alveolar process of maxilla	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004533	left testis	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
 HOM:0000007	historical homology	UBERON:0004534	right testis	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
 HOM:0000007	historical homology	UBERON:0004535	cardiovascular system	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
@@ -1094,7 +1093,7 @@ HOM:0000007	historical homology	UBERON:0004536	lymph vasculature	32523	Tetrapoda
 HOM:0000007	historical homology	UBERON:0004537	blood vasculature	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004538	left kidney	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004539	right kidney	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004552	digital artery	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Dipnotetrapodomorpha
+HOM:0000007	historical homology	UBERON:0004552	digital artery	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004572	arterial system	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004582	venous system	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004637	otic capsule	7742	Vertebrata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
@@ -1102,7 +1101,7 @@ HOM:0000007	historical homology	UBERON:0004638	blood vessel endothelium	7742	Ver
 HOM:0000007	historical homology	UBERON:0004666	interventricular septum membranous part	8782	Aves	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004666	interventricular septum membranous part	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004686	gastro-splenic ligament	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004692	external naris epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0004692	external naris epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004695	arterial system smooth muscle	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004696	venous system smooth muscle	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004699	outflow tract endothelium	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -1127,25 +1126,25 @@ HOM:0000007	historical homology	UBERON:0004768	bone of lower jaw	7776	Gnathostom
 HOM:0000007	historical homology	UBERON:0004771	posterior nasal aperture	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004798	respiratory system basal lamina	7742	Vertebrata	CIO:0000003	high confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
 HOM:0000007	historical homology	UBERON:0004800	bronchus basal lamina	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004801	cervix epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0004801	cervix epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004802	respiratory tract epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004803	penis epithelium	8459	Testudines	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004803	penis epithelium	8492	Archosauria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004803	penis epithelium	8509	Squamata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004803	penis epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004804	oviduct epithelium	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004805	seminal vesicle epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004806	vas deferens epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004807	respiratory system epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
-HOM:0000007	historical homology	UBERON:0004809	salivary gland epithelium	32524	Amniota	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004811	endometrium epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004812	male prepuce epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004813	seminiferous tubule epithelium	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004816	larynx epithelium	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004817	lacrimal gland epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004819	kidney epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004820	bile duct epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004821	pulmonary alveolus epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0004803	penis epithelium	8459	Testudines	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004803	penis epithelium	8492	Archosauria	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004803	penis epithelium	8509	Squamata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004803	penis epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004804	oviduct epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004805	seminal vesicle epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004806	vas deferens epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004807	respiratory system epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
+HOM:0000007	historical homology	UBERON:0004809	salivary gland epithelium	32524	Amniota	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004811	endometrium epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004812	male prepuce epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004813	seminiferous tubule epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004816	larynx epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004817	lacrimal gland epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004819	kidney epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004820	bile duct epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004821	pulmonary alveolus epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004829	urethra skeletal muscle	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004830	respiratory system skeletal muscle	7742	Vertebrata	CIO:0000003	high confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
 HOM:0000007	historical homology	UBERON:0004831	esophagus skeletal muscle	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
@@ -1166,10 +1165,10 @@ HOM:0000007	historical homology	UBERON:0004883	lung mesenchyme	7776	Gnathostomat
 HOM:0000007	historical homology	UBERON:0004890	right lung accessory lobe	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004895	alveolar smooth muscle	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0004896	right lung accessory lobe lobar bronchus	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0004902	urogenital sinus epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004909	epithelium of gonad	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0004910	epithelium of male gonad	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
-HOM:0000007	historical homology	UBERON:0004911	epithelium of female gonad	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
+HOM:0000007	historical homology	UBERON:0004902	urogenital sinus epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004909	epithelium of gonad	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0004910	epithelium of male gonad	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
+HOM:0000007	historical homology	UBERON:0004911	epithelium of female gonad	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Bilateria
 HOM:0000007	historical homology	UBERON:0005062	neural fold	7711	Chordata	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0005070	anterior neuropore	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005071	posterior neuropore	7711	Chordata	CIO:0000003	high confidence from single evidence	
@@ -1178,9 +1177,9 @@ HOM:0000007	historical homology	UBERON:0005080	metanephric ureteric bud	32524	Am
 HOM:0000007	historical homology	UBERON:0005081	ureter ureteric bud	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005091	left horn of sinus venosus	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005092	right horn of sinus venosus	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005103	mesonephric epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0005103	mesonephric epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005106	metanephric tubule	32524	Amniota	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005108	metanephric epithelium	32524	Amniota	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0005108	metanephric epithelium	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005109	metanephric smooth muscle tissue	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005110	metanephric nephron	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005130	metanephric loop of Henle	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
@@ -1191,11 +1190,11 @@ HOM:0000007	historical homology	UBERON:0005197	segmental spinal nerve	7711	Chord
 HOM:0000007	historical homology	UBERON:0005217	midbrain subarachnoid space	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005218	diencephalon subarachnoid space	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005219	hindbrain subarachnoid space	7711	Chordata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005225	upper leg epithelium	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0005225	upper leg epithelium	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005226	pedal digit epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005227	manual digit epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005228	upper arm epithelium	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0005229	lower leg epithelium	8287	Sarcopterygii	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0005228	upper arm epithelium	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005229	lower leg epithelium	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005236	osseus labyrinth vestibule	32525	Theria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005240	basal plate medulla oblongata	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005243	interventricular septum endocardium	8782	Aves	CIO:0000004	medium confidence from single evidence	
@@ -1298,14 +1297,14 @@ HOM:0000007	historical homology	UBERON:0005623	semi-lunar valve	7742	Vertebrata	
 HOM:0000007	historical homology	UBERON:0005624	suprarenal artery	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005625	tubotympanic recess lumen	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005626	ventral mesogastrium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005636	caecum epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0005637	pyloric region epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0005638	anterior chamber epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0005639	right lung cranial lobe epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0005640	right lung caudal lobe epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0005636	caecum epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005637	pyloric region epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005638	anterior chamber epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005639	right lung cranial lobe epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005640	right lung caudal lobe epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005641	otocyst epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005642	ultimobranchial body epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0005655	right lung accessory lobe epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0005642	ultimobranchial body epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005655	right lung accessory lobe epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005656	lens vesicle epithelium	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005657	crus commune epithelium	32525	Theria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005658	secondary palatal shelf epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
@@ -1334,14 +1333,15 @@ HOM:0000007	historical homology	UBERON:0005872	1st arch pharyngeal cleft	7776	Gn
 HOM:0000007	historical homology	UBERON:0005876	undifferentiated genital tubercle	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005879	pharyngeal cleft	7776	Gnathostomata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005882	neural tube alar plate	89593	Craniata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005893	leg bone	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005897	manus bone	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005899	pes bone	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0005911	endo-epithelium	33213	Bilateria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0005911|UBERON:0012275	endo-epithelium|meso-epithelium	6072	Eumetazoa	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0005893	leg bone	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005897	manus bone	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005899	pes bone	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005911	endo-epithelium	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005911|UBERON:0012275	endo-epithelium|meso-epithelium	6072	Eumetazoa	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005928	external naris	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005946	outflow tract of atrium	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0005967	conotruncal ridge	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0005998	tricuspid valve cusp	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006002	vitelline artery	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006067	musculature of hindlimb zeugopod	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006208	auditory hillocks	40674	Mammalia	CIO:0000003	high confidence from single evidence	
@@ -1418,11 +1418,11 @@ HOM:0000007	historical homology	UBERON:0006849	scapula	7742	Vertebrata	CIO:00000
 HOM:0000007	historical homology	UBERON:0006858	adrenal/interrenal gland	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006860	swim bladder	117571	Euteleostomi	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006870	endostyle	7711	Chordata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0006877	vasculature of liver	7711	Chordata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0006913	lip epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0006937	inner ear epithelium	7711	Chordata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0006938	pinna surface epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0006955	uterine epithelium	32524	Amniota	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0006877	vasculature of liver	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0006913	lip epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0006937	inner ear epithelium	7711	Chordata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0006938	pinna surface epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0006955	uterine epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006964	pars distalis of adenohypophysis	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006966	coronary capillary	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0006973	protonephridium	33213	Bilateria	CIO:0000003	high confidence from single evidence	
@@ -1459,7 +1459,7 @@ HOM:0000007	historical homology	UBERON:0007297	presumptive pronephric mesoderm	7
 HOM:0000007	historical homology	UBERON:0007299	choroid plexus of tectal ventricle	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0007300	pectoral appendage blood vessel	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0007302	pectoral appendage vasculature	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0007303	pharyngeal vasculature	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0007303	pharyngeal vasculature	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0007329	pancreatic duct	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0007376	outer epithelium	33208	Metazoa	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0007385	pectoral appendage lymph vessel	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
@@ -1473,8 +1473,8 @@ HOM:0000007	historical homology	UBERON:0007778	umbilical artery endothelium	9347
 HOM:0000007	historical homology	UBERON:0007830	pelvic girdle bone/zone	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0007831	pectoral girdle skeleton	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0007832	pelvic girdle skeleton	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0007997	sesamoid bone of manus	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0008000	sesamoid bone of pes	8287	Sarcopterygii	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0007997	sesamoid bone of manus	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0008000	sesamoid bone of pes	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008188	tendon of biceps brachii	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008192	tendon of triceps brachii	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008201	scute	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
@@ -1485,8 +1485,8 @@ HOM:0000007	historical homology	UBERON:0008256	left clavicle	40674	Mammalia	CIO:
 HOM:0000007	historical homology	UBERON:0008266	periodontal ligament	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008307	heart endothelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008331	clitoral smooth muscle	40674	Mammalia	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0008345	ileal epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0008346	duodenal epithelium	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0008345	ileal epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0008346	duodenal epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008523	infrahyoid muscle	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008571	suprahyoid muscle	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008780	inner cell mass derived epiblast	9347	Eutheria	CIO:0000004	medium confidence from single evidence	
@@ -1499,15 +1499,16 @@ HOM:0000007	historical homology	UBERON:0008909	perichordal bone	7742	Vertebrata	
 HOM:0000007	historical homology	UBERON:0008969	dental follicle	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0008975	oviduct shell gland	8457	Sauropsida	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009027	vesical artery	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009098	gravid uterus	32524	Amniota	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0009098	gravid uterus	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009127	epibranchial ganglion	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Craniata
 HOM:0000007	historical homology	UBERON:0009129	right atrium endocardium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009133	pleuroperitoneal membrane	8457	Sauropsida	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009133	pleuroperitoneal membrane	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009139	right posterior cardinal vein	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009149	foramen primum	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009200	limb epidermis	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0009200	limb epidermis	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009210	pharyngeal membrane	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0009292	embryonic nasal process	40674	Mammalia	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Craniata
 HOM:0000007	historical homology	UBERON:0009293	embryonic frontal process	7711	Chordata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009477	associated mesenchyme of otic placode	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009481	cavity of pericardio-peritoneal canal	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
@@ -1516,7 +1517,6 @@ HOM:0000007	historical homology	UBERON:0009483	mesentery of foregut-midgut junct
 HOM:0000007	historical homology	UBERON:0009494	pharyngeal arch mesenchymal region	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009497	epithelium of foregut-midgut junction	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009500	associated mesenchyme of otocyst	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009501	mesenchyme of fronto-nasal process	40674	Mammalia	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Craniata
 HOM:0000007	historical homology	UBERON:0009503	associated mesenchyme of hindgut	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009504	associated mesenchyme of main bronchus	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009505	associated mesenchyme of trachea	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
@@ -1525,7 +1525,7 @@ HOM:0000007	historical homology	UBERON:0009506	associated mesenchyme of middle e
 HOM:0000007	historical homology	UBERON:0009506	associated mesenchyme of middle ear	8492	Archosauria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009506	associated mesenchyme of middle ear	8504	Lepidosauria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009506	associated mesenchyme of middle ear	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009522	lateral lingual swelling epithelium	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0009522	lateral lingual swelling epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009537	vascular element of right lung	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009550	endoderm of foregut-midgut junction	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009564	distal limb integumentary appendage	8292	Amphibia	CIO:0000004	medium confidence from single evidence	
@@ -1538,18 +1538,18 @@ HOM:0000007	historical homology	UBERON:0009583	spinal cord mantle layer	7711	Cho
 HOM:0000007	historical homology	UBERON:0009584	1st arch mandibular mesenchyme	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009615	midbrain hindbrain boundary neural plate	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009616	presumptive midbrain	7711	Chordata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009647	tympanic membrane epithelium	8292	Amphibia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0009647	tympanic membrane epithelium	8457	Sauropsida	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Amniota
-HOM:0000007	historical homology	UBERON:0009647	tympanic membrane epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Amniota
+HOM:0000007	historical homology	UBERON:0009647	tympanic membrane epithelium	8292	Amphibia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0009647	tympanic membrane epithelium	8457	Sauropsida	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Amniota
+HOM:0000007	historical homology	UBERON:0009647	tympanic membrane epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Amniota
 HOM:0000007	historical homology	UBERON:0009655	auricular artery	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009675	chorda tympani branch of facial nerve	89593	Craniata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009695	epithelium of laryngopharynx	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0009697	epithelium of appendix	38609	Diprotodontia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0009697	epithelium of appendix	314146	Euarchontoglires	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0009695	epithelium of laryngopharynx	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0009697	epithelium of appendix	38609	Diprotodontia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0009697	epithelium of appendix	314146	Euarchontoglires	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009712	endocardium of right ventricle	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009713	endocardium of left ventricle	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009718	neurohypophyseal duct	7711	Chordata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009749	limb mesenchyme	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0009749	limb mesenchyme	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009751	cardiac mesenchyme	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009752	pancreas mesenchyme	89593	Craniata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009771	left anterior cardinal vein	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -1563,7 +1563,7 @@ HOM:0000007	historical homology	UBERON:0009880	carpal skeleton	117571	Euteleosto
 HOM:0000007	historical homology	UBERON:0009919	ureter smooth muscle	32524	Amniota	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009920	optic neural crest	89593	Craniata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0009955	neurogenic placode	89593	Craniata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0009970	epithelium of pancreatic duct	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0009970	epithelium of pancreatic duct	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010011	collection of basal ganglia	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010019	spiracle	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010045	1st arch maxillary mesenchyme	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
@@ -1587,18 +1587,18 @@ HOM:0000007	historical homology	UBERON:0010230	eyeball of camera-type eye	7742	V
 HOM:0000007	historical homology	UBERON:0010258	mesenchyme from rhombencephalic neural crest	89593	Craniata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010294	scleral endothelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010299	scleral mesenchyme	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0010303	extraembryonic epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0010303	extraembryonic epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010309	palpebral bone	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010359	pharyngeal arch mesenchyme from neural crest	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010360	pharyngeal arch mesenchyme from head mesenchyme	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0010371	ecto-epithelium	33213	Bilateria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0010371	ecto-epithelium	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010377	mesenchyme from somatopleure	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010378	mesenchyme from splanchnopleure	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010425	internal naris	32523	Tetrapoda	CIO:0000012	confidence statement from congruent evidence lines of multiple types, overall confidence high	
 HOM:0000007	historical homology	UBERON:0010532	primitive nephron	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010533	metanephros cortex	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010535	primitive metanephric nephron	32524	Amniota	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0010702	digit mesenchyme	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Dipnotetrapodomorpha
+HOM:0000007	historical homology	UBERON:0010702	digit mesenchyme	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010704	parenchyma of quadrate lobe of liver	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010706	parenchyma of caudate lobe of liver	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0010743	meningeal cluster	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -1615,7 +1615,7 @@ HOM:0000007	historical homology	UBERON:0011150	pharyngeal arch derived gill	3351
 HOM:0000007	historical homology	UBERON:0011151	jaw depressor muscle	117571	Euteleostomi	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0011170	quadrate-articular joint	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0011171	joint connecting upper and lower jaws	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0011197	parathyroid epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0011197	parathyroid epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0011299	white matter of telencephalon	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0011300	gray matter of telencephalon	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0011587	pre-dentine	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
@@ -1660,7 +1660,7 @@ HOM:0000007	historical homology	UBERON:0012239	urinary bladder vasculature	32523
 HOM:0000007	historical homology	UBERON:0012275	meso-epithelium	33213	Bilateria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0012466	extraembryonic cavities	40674	Mammalia	CIO:0000019	confidence statement from congruent evidence lines of same type, overall confidence medium	
 HOM:0000007	historical homology	UBERON:0012474	hepatic cecum	7711	Chordata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0012481	cloacal epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0012481	cloacal epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013124	left posterior cardinal vein	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013136	vein of lip	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013143	gastrocnemius vein	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
@@ -1674,23 +1674,23 @@ HOM:0000007	historical homology	UBERON:0013511	ambiens muscle	8457	Sauropsida	CI
 HOM:0000007	historical homology	UBERON:0013648	masseteric artery	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013694	brain endothelium	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013695	colon endothelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0013697	exocrine pancreas epithelium	7776	Gnathostomata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0013697	exocrine pancreas epithelium	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013755	arterial blood	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013756	venous blood	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0013757	capillary blood	7711	Chordata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014371	future telencephalon	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014387	mesenchyme derived from neural crest	89593	Craniata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0014388	kidney collecting duct epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0014388	kidney collecting duct epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014451	tongue taste bud	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014475	endostylar duct	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014649	white matter of medulla oblongata	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0014702	frontonasal process epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	Alternative homology hypothesis of low confidence exists for taxon: Craniata
-HOM:0000007	historical homology	UBERON:0014705	median lingual swelling epithelium	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0014705	median lingual swelling epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014783	cloacal muscle	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014786	extraembryonic umbilical vein	9347	Eutheria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014787	left extraembryonic umbilical vein	9347	Eutheria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014788	right extraembryonic umbilical vein	9347	Eutheria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014791	musculature of forelimb stylopod	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0014854	anterior leaflet of mitral valve	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014888	iliotibialis muscle	8292	Amphibia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0014891	brainstem white matter	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0015117	lamina terminalis of cerebral hemisphere	7711	Chordata	CIO:0000004	medium confidence from single evidence	
@@ -1701,19 +1701,19 @@ HOM:0000007	historical homology	UBERON:0015161	inferior branch of oculomotor ner
 HOM:0000007	historical homology	UBERON:0015162	superior branch of oculomotor nerve	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0015172	endometrial blood vessel	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0015214	arcuate ligament	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0015249	digit skin	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Dipnotetrapodomorpha
+HOM:0000007	historical homology	UBERON:0015249	digit skin	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0015418	urethra mesenchymal layer	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0015790	autopod skin	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	Alternative homology hypothesis of low confidence exists for taxon: Vertebrata
-HOM:0000007	historical homology	UBERON:0015796	liver blood vessel	7711	Chordata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0015807	ear epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015808	eye epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8292	Amphibia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8459	Testudines	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8492	Archosauria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8504	Lepidosauria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	40674	Mammalia	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015814	outer ear epithelium	32523	Tetrapoda	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
-HOM:0000007	historical homology	UBERON:0015833	foregut epithelium	33213	Bilateria	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0015796	liver blood vessel	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015807	ear epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015808	eye epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8292	Amphibia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8459	Testudines	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8492	Archosauria	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	8504	Lepidosauria	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015813	middle ear epithelium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015814	outer ear epithelium	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0015833	foregut epithelium	33213	Bilateria	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0015870	lymph node of head	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0016398	lymph node of lower limb	40674	Mammalia	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0016399	lymph node of upper limb	40674	Mammalia	CIO:0000003	high confidence from single evidence	
@@ -1735,7 +1735,7 @@ HOM:0000007	historical homology	UBERON:0018255	jejunal artery	32524	Amniota	CIO:
 HOM:0000007	historical homology	UBERON:0018256	lacrimal vein	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0018544	trigeminal nerve muscle	89593	Craniata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0018674	heart vasculature	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0019204	skin epithelium	7742	Vertebrata	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0019204	skin epithelium	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0019258	white matter of hindbrain	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0019261	white matter of forebrain	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0019262	white matter of myelencephalon	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
@@ -1746,7 +1746,7 @@ HOM:0000007	historical homology	UBERON:0019269	gray matter of diencephalon	7742	
 HOM:0000007	historical homology	UBERON:0019291	white matter of metencephalon	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0019292	white matter of pons	8782	Aves	CIO:0000003	high confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0019292	white matter of pons	40674	Mammalia	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0019304	sensory organ epithelium	33208	Metazoa	CIO:0000024	confidence statement from weakly conflicting evidence lines of same type, overall confidence medium	
+HOM:0000007	historical homology	UBERON:0019304	sensory organ epithelium	33208	Metazoa	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0020550	auricular blood vessel	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0022292	splenic arteriole	7776	Gnathostomata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0022298	lower eyelid nerve	32523	Tetrapoda	CIO:0000003	high confidence from single evidence	
@@ -1763,7 +1763,7 @@ HOM:0000007	historical homology	UBERON:0034729	sympathetic nerve	7742	Vertebrata
 HOM:0000007	historical homology	UBERON:0034764	remnant of cardiac valve	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0034875	future pituitary gland	89593	Craniata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0034878	prechordal mesoderm	7742	Vertebrata	CIO:0000003	high confidence from single evidence	
-HOM:0000007	historical homology	UBERON:0034898	alveolar ridge of premaxilla	32523	Tetrapoda	CIO:0000004	medium confidence from single evidence	
+HOM:0000007	historical homology	UBERON:0034898	alveolar ridge of premaxilla	32524	Amniota	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0034903	left atrium endocardium	40674	Mammalia	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:0034908	scapular muscle	7742	Vertebrata	CIO:0000004	medium confidence from single evidence	
 HOM:0000007	historical homology	UBERON:1500000	scapular blade	8782	Aves	CIO:0000003	high confidence from single evidence	
