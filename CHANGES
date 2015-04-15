@@ -1,3 +1,6 @@
+2015-04-15:
+- update annotations, to fix incorrect taxa for some multiple-entities annotations.
+
 2015-04-14: 
 - update annotations, notably to add single-entity annotations corresponding to the "split" of multiple-entities annotations
 - fix bugs in annotation inference based on logical constraints
