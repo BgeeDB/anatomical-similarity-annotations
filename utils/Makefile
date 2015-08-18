@@ -1,4 +1,4 @@
-JAVA := java -Xmx10g -Dorg.slf4j.simpleLogger.defaultLogLevel=error -Djava.util.logging.config.file=jdkLogConfig.properties
+JAVA := java -Xmx10g
 WGET := wget -N -nv
 MV   := mv -f
 
