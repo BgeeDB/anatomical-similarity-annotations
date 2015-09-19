@@ -1,6 +1,20 @@
 JAVA := java -Xmx10g
-WGET := wget -N -nv
 MV   := mv -f
+# -s: silent, no progress bar displayed; 
+# -S: if silent, still shows error message if it fails; 
+# -L: in case of redirection, follow it and redo the request, this is necessary to correctly get modification date; 
+# -f: in case of error do not display the document returned.
+# Sould be used with option -z filename: download remote file only if more recent than the provided file
+# And with -o option to choose output file name. 
+# See variable APPEND_CURL_COMMAND. 
+CURL := curl -s -S -L -f
+# variable to append to cURL command to download a file only if remote file more recent than targeted file, 
+# download in a temp file and move to stable location on sucess; delete temp file on error
+# Variable to be recursively expanded. 
+# -z filename: download remote file only if last modification date more recent that modification date of downloadfile
+# -o filename: store downloaded file into filename
+# Redirect stderr of mv to /dev/null in case the file was not redownloaded so that the temp file does not exist
+APPEND_CURL_COMMAND = -z $@ -o $@.tmp && mv -f $@.tmp $@ 2>/dev/null || rm -f $@.tmp $@
 
 TMP_DIR                 := tmp/
 BGEEPIPELINEJAR         := bgee-pipeline-with-dependencies.jar
@@ -21,15 +35,15 @@ all: $(TMP_DIR)release_files.log
 
 # Download the ontologies needed
 $(UBERON_WITH_CONSTRAINTS): 
-	@$(WGET) http://purl.obolibrary.org/obo/uberon/ext.owl -O $@.tmp && $(MV) $@.tmp $@
+	@$(CURL) http://purl.obolibrary.org/obo/uberon/ext.owl $(APPEND_CURL_COMMAND)
 $(UBERON_COMPOSITE): 
-        @$(WGET) http://purl.obolibrary.org/obo/uberon/composite-metazoan.owl -O $@.tmp && $(MV) $@.tmp $@
+        @$(CURL) http://purl.obolibrary.org/obo/uberon/composite-metazoan.owl $(APPEND_CURL_COMMAND)
 $(HOM_ONT): 
-        @$(WGET) https://raw.githubusercontent.com/BgeeDB/homology-ontology/master/src/ontology/hom.obo -O $@.tmp && $(MV) $@.tmp $@
+        @$(CURL) https://raw.githubusercontent.com/BgeeDB/homology-ontology/master/src/ontology/hom.obo $(APPEND_CURL_COMMAND)
 $(ECO_ONT): 
-        @$(WGET) http://evidenceontology.googlecode.com/svn/trunk/eco.obo -O $@.tmp && $(MV) $@.tmp $@
+        @$(CURL) http://evidenceontology.googlecode.com/svn/trunk/eco.obo $(APPEND_CURL_COMMAND)
 $(CIO_ONT):         
-        @$(WGET) https://raw.githubusercontent.com/BgeeDB/confidence-information-ontology/master/src/ontology/cio.owl -O $@.tmp && $(MV) $@.tmp $@
+        @$(CURL) https://raw.githubusercontent.com/BgeeDB/confidence-information-ontology/master/src/ontology/cio.owl $(APPEND_CURL_COMMAND)
 
 # generate a file with the taxon IDs present in the curator annotation file, 
 # to define for which taxa we will generate taxon constraints
@@ -63,7 +77,7 @@ $(TMP_DIR)allTaxIds.tsv: $(TMP_DIR)annotTaxIds.tsv $(UBERON_WITH_CONSTRAINTS)
 TAXDAT := taxonomy.dat
 $(TMP_DIR)ncbitaxon.owl: $(TMP_DIR)allTaxIds.tsv
 	@echo "Generating taxonomy ontology..."
-	@$(WGET) ftp://ftp.ebi.ac.uk/pub/databases/taxonomy/$(TAXDAT) -O $(TMP_DIR)$(TAXDAT).tmp && $(MV) $(TMP_DIR)$(TAXDAT).tmp $(TMP_DIR)$(TAXDAT)
+	@$(CURL) ftp://ftp.ebi.ac.uk/pub/databases/taxonomy/$(TAXDAT) -z $(TMP_DIR)$(TAXDAT) -o $(TMP_DIR)$(TAXDAT)
 	@$(JAVA) -jar $(BGEEPIPELINEJAR) GenerateTaxonOntology $(TMP_DIR)$(TAXDAT) $^ $@
 	@rm -f $(TMP_DIR)$(TAXDAT)
 	@echo "Done generating taxonomy ontology.\n"
