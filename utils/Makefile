@@ -1,4 +1,4 @@
-JAVA := java -Xmx10g
+JAVA := java -Xmx12g
 MV   := mv -f
 # -s: silent, no progress bar displayed; 
 # -S: if silent, still shows error message if it fails; 
@@ -85,7 +85,7 @@ $(TMP_DIR)ncbitaxon.owl: $(TMP_DIR)allTaxIds.tsv
 # generate taxon constraints
 $(TMP_DIR)taxonConstraints.tsv: $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv
 	@echo "Generating taxon constraints..."
-	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $^ $@.tmp
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $^ 7712/40674--7742--89593,6040/40674--7742--89593--33511--33213--6072 $@.tmp
 	@$(MV) $@.tmp $@
 	@echo "Done generating taxon constraints.\n"
 
