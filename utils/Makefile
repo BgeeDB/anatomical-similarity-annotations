@@ -1,3 +1,5 @@
+include override_taxon_constraints
+
 JAVA := java -Xmx12g
 MV   := mv -f
 # -s: silent, no progress bar displayed; 
@@ -29,21 +31,19 @@ HOM_ONT                 := $(TMP_DIR)hom.obo
 ECO_ONT                 := $(TMP_DIR)eco.obo
 CIO_ONT                 := $(TMP_DIR)cio.owl
 
-OVERRIDE_TAXON_CONSTRAINTS := HsapDv\:/9606,MmusDv\:/10090,ZFS\:/7955,XAO\:/8364,FBdv\:/7227,GgalDv\:/9031,GgorDv\:/9593,MmulDv\:/9544,MdomDv\:/13616,OanaDv\:/9258,PtroDv\:/9598,PpanDv\:/9597,PpygDv\:/9600,BtauDv\:/9913,RnorDv\:/10116,AcarDv\:/28377,TnigDv\:/99883,SscrDv\:/9823,WBls\:/6239,PdumDv\:/6358,UBERON\:0000069/6239--7227--7955--8364,AAO\:/8364,ABA\:/10090,EHDAA2\:/9606,EMAPA\:/10090,FBbt\:/7227,FMA\:/9606,HAO\:/7399,MA\:/10090,MFO\:/8089,SPD\:/6893,TADS\:/6939,TAO\:/7955--99883,TGMA\:/44484,WBbt\:/6239,ZFA\:/7955,EHDAA\:/9606,EV\:/9606,CEPH\:/6605,CTENO\:/10197,PORO\:/6040
-
 all: $(TMP_DIR)release_files.log
 
 # Download the ontologies needed
 $(UBERON_WITH_CONSTRAINTS): 
 	@$(CURL) http://purl.obolibrary.org/obo/uberon/ext.owl $(APPEND_CURL_COMMAND)
 $(UBERON_COMPOSITE): 
-        @$(CURL) http://purl.obolibrary.org/obo/uberon/composite-metazoan.owl $(APPEND_CURL_COMMAND)
+	@$(CURL) http://purl.obolibrary.org/obo/uberon/composite-metazoan.owl $(APPEND_CURL_COMMAND)
 $(HOM_ONT): 
-        @$(CURL) https://raw.githubusercontent.com/BgeeDB/homology-ontology/master/src/ontology/hom.obo $(APPEND_CURL_COMMAND)
+	@$(CURL) https://raw.githubusercontent.com/BgeeDB/homology-ontology/master/src/ontology/hom.obo $(APPEND_CURL_COMMAND)
 $(ECO_ONT): 
-        @$(CURL) http://evidenceontology.googlecode.com/svn/trunk/eco.obo $(APPEND_CURL_COMMAND)
+	@$(CURL) http://evidenceontology.googlecode.com/svn/trunk/eco.obo $(APPEND_CURL_COMMAND)
 $(CIO_ONT):         
-        @$(CURL) https://raw.githubusercontent.com/BgeeDB/confidence-information-ontology/master/src/ontology/cio.owl $(APPEND_CURL_COMMAND)
+	@$(CURL) https://raw.githubusercontent.com/BgeeDB/confidence-information-ontology/master/src/ontology/cio.owl $(APPEND_CURL_COMMAND)
 
 # generate a file with the taxon IDs present in the curator annotation file, 
 # to define for which taxa we will generate taxon constraints
@@ -85,14 +85,14 @@ $(TMP_DIR)ncbitaxon.owl: $(TMP_DIR)allTaxIds.tsv
 # generate taxon constraints
 $(TMP_DIR)taxonConstraints.tsv: $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv
 	@echo "Generating taxon constraints..."
-	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $^ 7712/40674--7742--89593,6040/40674--7742--89593--33511--33213--6072 $@.tmp
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $^ 7712/40674--32524--32523--8287--7776--7742--89593,6040/40674--32524--32523--8287--7776--7742--89593--33511--33213--6072,6073/40674--32524--32523--8287--7776--7742--89593--33511--33213 $@.tmp
 	@$(MV) $@.tmp $@
 	@echo "Done generating taxon constraints.\n"
 
 # generate the release files
-$(TMP_DIR)release_files.log: $(TMP_DIR)taxonConstraints.tsv $(OVERRIDE_TAXON_CONSTRAINTS) $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE)
+$(TMP_DIR)release_files.log: $(TMP_DIR)taxonConstraints.tsv $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE)
 	@echo "Generating release files..."
-	@$(JAVA) -jar $(BGEEPIPELINEJAR) SimilarityAnnotation generateReleaseFile $^ | tee $@.tmp
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) SimilarityAnnotation generateReleaseFile $(TMP_DIR)taxonConstraints.tsv $(OVERRIDE_TAXON_CONSTRAINTS) $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE) > $@.tmp
 	@$(MV) $@.tmp $@
 	@echo "Done generating release files.\n"
 
