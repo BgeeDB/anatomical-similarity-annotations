@@ -1,4 +1,6 @@
-JAVA := java -Xmx12g
+include override_taxon_constraints
+
+JAVA := java -Xmx50g
 MV   := mv -f
 # -s: silent, no progress bar displayed; 
 # -S: if silent, still shows error message if it fails; 
@@ -29,8 +31,6 @@ HOM_ONT                 := $(TMP_DIR)hom.obo
 ECO_ONT                 := $(TMP_DIR)eco.obo
 CIO_ONT                 := $(TMP_DIR)cio.owl
 
-OVERRIDE_TAXON_CONSTRAINTS := HsapDv\:/9606,MmusDv\:/10090,ZFS\:/7955,XAO\:/8364,FBdv\:/7227,GgalDv\:/9031,GgorDv\:/9593,MmulDv\:/9544,MdomDv\:/13616,OanaDv\:/9258,PtroDv\:/9598,PpanDv\:/9597,PpygDv\:/9600,BtauDv\:/9913,RnorDv\:/10116,AcarDv\:/28377,TnigDv\:/99883,SscrDv\:/9823,WBls\:/6239,PdumDv\:/6358,UBERON\:0000069/6239--7227--7955--8364,AAO\:/8364,ABA\:/10090,EHDAA2\:/9606,EMAPA\:/10090,FBbt\:/7227,FMA\:/9606,HAO\:/7399,MA\:/10090,MFO\:/8089,SPD\:/6893,TADS\:/6939,TAO\:/7955--99883,TGMA\:/44484,WBbt\:/6239,ZFA\:/7955,EHDAA\:/9606,EV\:/9606,CEPH\:/6605,CTENO\:/10197,PORO\:/6040
-
 all: $(TMP_DIR)release_files.log
 
 # Download the ontologies needed
@@ -60,6 +60,8 @@ $(TMP_DIR)allTaxIds.tsv: $(TMP_DIR)annotTaxIds.tsv $(UBERON_WITH_CONSTRAINTS)
 	@echo "Extracting all taxon IDs..."
 # get the tax IDs used in Uberon
 	@$(JAVA) -jar $(BGEEPIPELINEJAR) Uberon extractTaxonIds $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)uberonTaxIds.tsv.tmp
+# add taxa used in overriding taxon constraints
+	@taxa="$(OVERRIDING_TAXA)"; for taxon in $$taxa; do echo $$taxon >> $(TMP_DIR)uberonTaxIds.tsv.tmp; done
 # get the tax IDs used in the curator annotation file, without the first header line
 	@sed 1d $(TMP_DIR)annotTaxIds.tsv > $(TMP_DIR)annotTaxIds.tsv.noheader
 # concatenate these 2 files
@@ -83,9 +85,9 @@ $(TMP_DIR)ncbitaxon.owl: $(TMP_DIR)allTaxIds.tsv
 	@echo "Done generating taxonomy ontology.\n"
 
 # generate taxon constraints
-$(TMP_DIR)taxonConstraints.tsv: $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv
+$(TMP_DIR)taxonConstraints.tsv: $(UBERON_WITH_CONSTRAINTS) $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv
 	@echo "Generating taxon constraints..."
-	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $^ 7712/40674--7742--89593,6040/40674--7742--89593--33511--33213--6072 $@.tmp
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv 7712/40674--32524--32523--8287--7776--7742--89593,6040/40674--32524--32523--8287--7776--7742--89593--33511--33213--6072,6073/40674--32524--32523--8287--7776--7742--89593--33511--33213 $(UBERON_COMPOSITE) $(OVERRIDE_TAXON_CONSTRAINTS) $@.tmp
 	@$(MV) $@.tmp $@
 	@echo "Done generating taxon constraints.\n"
 
