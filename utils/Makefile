@@ -37,13 +37,13 @@ all: $(TMP_DIR)release_files.log
 $(UBERON_WITH_CONSTRAINTS): 
 	@$(CURL) http://purl.obolibrary.org/obo/uberon/ext.owl $(APPEND_CURL_COMMAND)
 $(UBERON_COMPOSITE): 
-        @$(CURL) http://purl.obolibrary.org/obo/uberon/composite-metazoan.owl $(APPEND_CURL_COMMAND)
+	@$(CURL) http://purl.obolibrary.org/obo/uberon/composite-metazoan.owl $(APPEND_CURL_COMMAND)
 $(HOM_ONT): 
-        @$(CURL) https://raw.githubusercontent.com/BgeeDB/homology-ontology/master/src/ontology/hom.obo $(APPEND_CURL_COMMAND)
+	@$(CURL) https://raw.githubusercontent.com/BgeeDB/homology-ontology/master/src/ontology/hom.obo $(APPEND_CURL_COMMAND)
 $(ECO_ONT): 
-        @$(CURL) http://evidenceontology.googlecode.com/svn/trunk/eco.obo $(APPEND_CURL_COMMAND)
+	@$(CURL) http://evidenceontology.googlecode.com/svn/trunk/eco.obo $(APPEND_CURL_COMMAND)
 $(CIO_ONT):         
-        @$(CURL) https://raw.githubusercontent.com/BgeeDB/confidence-information-ontology/master/src/ontology/cio.owl $(APPEND_CURL_COMMAND)
+	@$(CURL) https://raw.githubusercontent.com/BgeeDB/confidence-information-ontology/master/src/ontology/cio.owl $(APPEND_CURL_COMMAND)
 
 # generate a file with the taxon IDs present in the curator annotation file, 
 # to define for which taxa we will generate taxon constraints
@@ -90,9 +90,9 @@ $(TMP_DIR)taxonConstraints.tsv: $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)ncbitaxon.o
 	@echo "Done generating taxon constraints.\n"
 
 # generate the release files
-$(TMP_DIR)release_files.log: $(TMP_DIR)taxonConstraints.tsv $(OVERRIDE_TAXON_CONSTRAINTS) $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE)
+$(TMP_DIR)release_files.log: $(TMP_DIR)taxonConstraints.tsv $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE)
 	@echo "Generating release files..."
-	@$(JAVA) -jar $(BGEEPIPELINEJAR) SimilarityAnnotation generateReleaseFile $^ | tee $@.tmp
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) SimilarityAnnotation generateReleaseFile $(TMP_DIR)taxonConstraints.tsv $(OVERRIDE_TAXON_CONSTRAINTS) $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE) > $@.tmp
 	@$(MV) $@.tmp $@
 	@echo "Done generating release files.\n"
 
