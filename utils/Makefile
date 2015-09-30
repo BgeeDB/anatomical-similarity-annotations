@@ -1,4 +1,4 @@
-include override_taxon_constraints
+include Makefile.taxon_info
 
 JAVA := java -Xmx50g
 MV   := mv -f
@@ -87,16 +87,22 @@ $(TMP_DIR)ncbitaxon.owl: $(TMP_DIR)allTaxIds.tsv
 # generate taxon constraints
 $(TMP_DIR)taxonConstraints.tsv: $(UBERON_WITH_CONSTRAINTS) $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv
 	@echo "Generating taxon constraints..."
-	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv 7712/40674--32524--32523--8287--7776--7742--89593,6040/40674--32524--32523--8287--7776--7742--89593--33511--33213--6072,6073/40674--32524--32523--8287--7776--7742--89593--33511--33213 $(UBERON_COMPOSITE) $(OVERRIDE_TAXON_CONSTRAINTS) $@.tmp
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) TaxonConstraints generateTaxonConstraints $(UBERON_WITH_CONSTRAINTS) $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)annotTaxIds.tsv $(SIMPLIFICATION_STEPS) $(UBERON_COMPOSITE) $(OVERRIDE_TAXON_CONSTRAINTS) $@.tmp
 	@$(MV) $@.tmp $@
 	@echo "Done generating taxon constraints.\n"
 
 # generate the release files
 $(TMP_DIR)release_files.log: $(TMP_DIR)taxonConstraints.tsv $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE)
 	@echo "Generating release files..."
-	@$(JAVA) -jar $(BGEEPIPELINEJAR) SimilarityAnnotation generateReleaseFile $(TMP_DIR)taxonConstraints.tsv $(OVERRIDE_TAXON_CONSTRAINTS) $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE) > $@.tmp
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) SimilarityAnnotation generateReleaseFile $(TMP_DIR)taxonConstraints.tsv - $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE) > $@.tmp
 	@$(MV) $@.tmp $@
 	@echo "Done generating release files.\n"
 
+$(TMP_DIR)release_files_no_constraint_check.log: $(UBERON_COMPOSITE) $(TMP_DIR)ncbitaxon.owl $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(CURATOR_FILE) $(RAW_FILE) $(SUMMARY_FILE) $(ANCESTORS_FILE)
+	@echo "Generating release files with no taxon constraint check..."
+	@$(JAVA) -jar $(BGEEPIPELINEJAR) SimilarityAnnotation generateReleaseFile - - $^ > $@.tmp
+	@$(MV) $@.tmp $@
+	@echo "Done generating release files with no taxon constraint check.\n"
+
 clean: 
-	@rm -f $(TMP_DIR)release_files.log $(TMP_DIR)taxonConstraints.tsv $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)$(TAXDAT) $(TMP_DIR)allTaxIds.tsv $(TMP_DIR)annotTaxIds.tsv $(UBERON_WITH_CONSTRAINTS) $(UBERON_COMPOSITE) $(HOM_ONT) $(ECO_ONT) $(CIO_ONT)
+	@rm -f $(TMP_DIR)release_files.log $(TMP_DIR)taxonConstraints.tsv $(TMP_DIR)ncbitaxon.owl $(TMP_DIR)$(TAXDAT) $(TMP_DIR)allTaxIds.tsv $(TMP_DIR)annotTaxIds.tsv $(UBERON_WITH_CONSTRAINTS) $(UBERON_COMPOSITE) $(HOM_ONT) $(ECO_ONT) $(CIO_ONT) $(TMP_DIR)release_files_no_constraint_check.log
