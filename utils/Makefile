@@ -6,10 +6,11 @@ MV   := mv -f
 # -S: if silent, still shows error message if it fails; 
 # -L: in case of redirection, follow it and redo the request, this is necessary to correctly get modification date; 
 # -f: in case of error do not display the document returned.
+# -R: make the local file have the same timestamp as remote file
 # Sould be used with option -z filename: download remote file only if more recent than the provided file
 # And with -o option to choose output file name. 
 # See variable APPEND_CURL_COMMAND. 
-CURL := curl -s -S -L -f
+CURL := curl -s -S -L -f -R
 # variable to append to cURL command to download a file only if remote file more recent than targeted file, 
 # download in a temp file and move to stable location on sucess; delete temp file on error
 # Variable to be recursively expanded. 
