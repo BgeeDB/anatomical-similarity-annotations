@@ -42,7 +42,7 @@ $(UBERON_COMPOSITE):
 $(HOM_ONT): 
 	@$(CURL) https://raw.githubusercontent.com/BgeeDB/homology-ontology/master/src/ontology/hom.obo $(APPEND_CURL_COMMAND)
 $(ECO_ONT): 
-	@$(CURL) http://evidenceontology.googlecode.com/svn/trunk/eco.obo $(APPEND_CURL_COMMAND)
+	@$(CURL) https://raw.githubusercontent.com/evidenceontology/evidenceontology/master/eco.obo $(APPEND_CURL_COMMAND)
 $(CIO_ONT):         
 	@$(CURL) https://raw.githubusercontent.com/BgeeDB/confidence-information-ontology/master/src/ontology/cio.owl $(APPEND_CURL_COMMAND)
 
