@@ -1,14 +1,14 @@
-## Annotation files available for download
+# Annotation files available for download
 
 Please not that currently these annotation files only allow to annotate **transitive** similarity relations 
 (such as `HOM:0000007 "historical homology"`), and do not allow to capture non-transitive relations 
 (such as `HOM:0000002 "homoplasy"`).
 
-### File types
+## File types
 
 The similarity annotations can be retrieved in three "flavors":
 
-#### raw_similarity_annotations.tsv
+### raw_similarity_annotations.tsv
 
 These annotation file contains all annotations made by curators, plus automatically inferred annotations. 
 Each annotation captures one single evidence, describing a similarity relation, for an (some) anatomical(s) structure(s), 
@@ -33,7 +33,7 @@ The automatic annotations can be easily identified, as they are associated to th
 `ECO:0000501 "evidence used in automatic assertion"`, and are tagged with the supporting text 
 "Annotation inferred from logical constraints using annotations [... (description of the supporting raw annotations follows)]".
 
-#### summary_similarity_annotations.tsv
+### summary_similarity_annotations.tsv
 
 These annotation files summarizes all annotations present in the file `raw_similarity_annotations.tsv` described above, 
 by aggregating all evidence lines targeting the same HOM ID, Uberon IDs, taxon ID, in order to provide a global level of confidence 
@@ -49,13 +49,15 @@ the homology of the structure `camera-type eye` in the lineage `Vertebrata`, the
 These three lines are summarized in the file `summary_similarity_annotations.tsv` into one single line, providing a global 
 level of confidence in this annotation, from all the evidence lines available.
 
-#### ancestral_taxa_homology_annotations.tsv
+### ancestral_taxa_homology_annotations.tsv
 
 One of the questions that can be answered thanks to the similarity annotations is: 
 "in which lineage did that anatomical structure first appear?". This is the information that can be retrieved in the file 
 `ancestral_taxa_homology_annotations.tsv`. This file contains annotations targeting the highest lineage 
-with a positive and reliable information of historical homology, for each anatomical structure. It thus provides
-for each anatomical structure the lineage in which it appeared.
+with a positive and reliable information of historical homology, for each anatomical structure: when there are annotations 
+for a same HOM ID and Uberon ID, but different taxon IDs, only the most likely and highest taxon is conserved, 
+so that there is at most one line for a given HOM ID and Uberon ID. It thus provides for each anatomical structure 
+the lineage in which it likely appeared.
 
 Indeed, the raw and summary annotations can capture evidence lines of homology for an anatomical structure 
 at different taxonomical levels. For instance, there are evidence lines that the `urinary bladder` is homologous 
@@ -64,7 +66,7 @@ targeting a same anatomical structure, but at different taxonomical levels, are 
 `raw_similarity_annotations.tsv` and `summary_similarity_annotations.tsv`.  In the file `ancestral_taxa_homology_annotations.tsv`, 
 only the annotation for the highest taxonomical level is present (the annotation targeting the `Tetrapoda` lineage).
 
-#### Summary of the three file types
+### Summary of the three file types
 
 To summarize:
 
@@ -83,7 +85,7 @@ To summarize:
   * HOM ID (but it is always targeting the relation "historical homology")
   * Uberon IDs
 
-### File format
+## File format
 
 ### Annotation file fields
 
@@ -97,8 +99,8 @@ supporting information is inspired from the [guide to GO evidence codes](http://
 <tbody>
 <tr><td>1</td><td><a href='#hom-id-column-1'>HOM ID</a></td><td>1</td><td>HOM:0000007</td><td></td></tr>
 <tr><td>2</td><td><a href='#hom-name-column-2'>HOM name</a></td><td>1</td><td>historical homology</td><td></td></tr>
-<tr><td>3</td><td><a href='#entity-column-3'>entity ID (|entity ID)</a></td><td>1 or greater</td><td>UBERON:0000019</td><td></td></tr>
-<tr><td>4</td><td><a href='#entity-name-column-4'>entity name (|entity name)</a></td><td>1 or greater</td><td>camera-type eye</td><td></td></tr>
+<tr><td>3</td><td><a href='#entity-column-3'>entity ID (|entity ID)</a></td><td>1 or greater</td><td>UBERON:0000019</td><td>Multiple entities are eparated with |</td></tr>
+<tr><td>4</td><td><a href='#entity-name-column-4'>entity name (|entity name)</a></td><td>1 or greater</td><td>camera-type eye</td><td>Multiple entities are eparated with |</td></tr>
 <tr><td>5</td><td><a href='#qualifier-column-5'>qualifier</a></td><td>0 or 1</td><td>NOT</td><td></td></tr>
 <tr><td>6</td><td><a href='#taxon-column-6'>taxon ID</a></td><td>1</td><td>7742</td><td>cardinality might change in the future to handle other relations</td></tr>
 <tr><td>7</td><td><a href='#taxon-name-column-7'>taxon name</a></td><td>1</td><td>Vertebrata</td><td>cardinality might change in the future to handle other relations</td></tr>
@@ -202,89 +204,109 @@ If several entities are provided in column 3, the pipe (`|`) separator is used, 
 
     lung|swim bladder
 
-Optional field, cardinality 0 or greater
-
 #### Qualifier (column 5)
 
-Flag used to negate the interpretation of an annotation. If provided, the only accepted value is `NOT`. This is used to capture an information **rejecting** a putative relation between structures, that could otherwise seem plausible.
+Flag used to negate the interpretation of an annotation. If provided, the only accepted value is `NOT`. 
+This is used to capture an information **rejecting** a putative relation between structures, that could otherwise seem plausible.
 
-For instance, this qualifier is used to capture annotations stating that hindgut (`UBERON:0001046`) is <strong>not</strong> believed to be homologous among <i>Bilateria</i>. Another annotation then states that hindgut is believed to be homologous among <i>Vertebrata</i>.
+For instance, this qualifier is used to capture annotations stating that hindgut (`UBERON:0001046`) 
+is <strong>not</strong> believed to be homologous among <i>Bilateria</i>. Another annotation then states 
+that hindgut is believed to be homologous among <i>Vertebrata</i>.
 
 Optional field, cardinality 0 or 1. If cardinality 1, the only accepted value is `NOT`.
 
 #### Taxon (column 6)
 
-The unique identifier of the taxon targeted by the `HOM ID` relation (column 1), for the provided `entity` (column 3). These identifiers are integers linking to the [NCBI taxonomy](http://www.ncbi.nlm.nih.gov/Taxonomy/).
+The unique identifier of the taxon targeted by the `HOM ID` relation (column 1), for the provided `entity` (column 3). 
+These identifiers are integers linking to the [NCBI taxonomy](http://www.ncbi.nlm.nih.gov/Taxonomy/).
 
 See definition of column 3 for an example of use of `taxon`.
 
-Required field, cardinality 1. Note that this cardinality could evolve in the future, to allow the use of other types of similarity relations (for instance, to define in which taxa a structure is functionally equivalent, as this type of relation would not originate from any common ancestor).
+Required field, cardinality 1. Note that this cardinality could evolve in the future, 
+to allow the use of other types of similarity relations (for instance, to define in which taxa a structure 
+is functionally equivalent, as this type of relation would not originate from any common ancestor).
 
 #### Taxon name (column 7)
 
 Name of `taxon`, defined in column 6.
 
-Optional field, cardinality 0 or 1. Note that this cardinality could evolve in the future, to allow the use of other types of similarity relations (for instance, to define in which taxa a structure is functionally equivalent, as this type of relation would not originate from any common ancestor).
-
 #### CIO ID (column 8)
 
-Unique identifier from the experimental [confidence information ontology](https://github.com/BgeeDB/confidence-information-ontology/blob/master/src/ontology/confidence_information_ontology.obo). This experimental ontology is an attempt to provide a mean to capture information about the confidence in an assertion. See [project home](https://github.com/BgeeDB/confidence-information-ontology) for more details.
+Unique identifier from the [confidence information ontology](https://github.com/BgeeDB/confidence-information-ontology/blob/master/src/ontology/confidence_information_ontology.obo). 
+This experimental ontology is an attempt to provide a mean to capture information about the confidence in an assertion. 
+See [project home](https://github.com/BgeeDB/confidence-information-ontology) for more details.
 
-If the value of `line type` (column 8) is `RAW`, then this confidence code can only belong to the "confidence from single evidence" branch. Possible values are then `CIO:0000003` ("high confidence from single evidence"), `CIO:0000004` ("medium confidence from single evidence"), and `CIO:0000005` ("low confidence from single evidence").
+In the file `raw_similarity_annotations.tsv` this confidence code can only belong to the "confidence from single evidence" branch. 
+Possible values are then `CIO:0000003` ("high confidence from single evidence"), 
+`CIO:0000004` ("medium confidence from single evidence"), and `CIO:0000005` ("low confidence from single evidence").
 
-If the value of `line type` (column 8) is `SUMMARY`, then this confidence code can only belong to the "confidence from multiple evidences" branch, as the aim of such lines are to summarize several individual annotations, based on a single evidence.
-For the `SUMMARY` lines, this confidence code is assigned automatically, using the "single evidence" confidences provided by curators, and using the Evidence Ontology to try to determine whether the evidences used are of a same experimental type, or of different experimental types (which provides a stronger support for the assertion, see the [confidence information ontology](https://github.com/BgeeDB/confidence-information-ontology/blob/master/src/ontology/confidence_information_ontology.obo) for more details).
+For the file `summary_similarity_annotations.tsv`, this confidence code is assigned automatically, 
+using the "single evidence" confidences provided by curators, and using the Evidence Ontology to try to determine whether 
+the evidences used are of a same experimental type, or of different experimental types (which provides a stronger support 
+for the assertion, see the [confidence information ontology](https://github.com/BgeeDB/confidence-information-ontology/blob/master/src/ontology/confidence_information_ontology.obo) for more details).
 
 #### CIO name (column 9)
 
-Name of `CIO ID`, defined in column 11. 
-
-Optional field, cardinality 0 or 1.
+Name of `CIO ID`, defined in column 8.
 
 #### ECO ID (column 10)
 
-Unique identifier from the [Evidence Ontology](https://code.google.com/p/evidenceontology/), capturing how the annotation is supported. See the [GO evidence code guide](http://www.geneontology.org/GO.evidence.shtml) for more information.
+Unique identifier from the [Evidence Ontology](https://code.google.com/p/evidenceontology/), capturing 
+how the annotation is supported. See the [GO evidence code guide](http://www.geneontology.org/GO.evidence.shtml) 
+for more information.
 
-If `line type` (column 8) is equal to `RAW`, this field is required, cardinality 1. If `line type` is equal to `SUMMARY`, this field is not provided, cardinality 0 (as the aim of such lines are to summarize several evidences, that can be retrieved from the individual `RAW` annotations).
+This field is mandatory and present only in the file `raw_similarity_annotations.tsv`.
 
 #### ECO name (column 11)
 
-Name of `ECO ID`, defined in column 9. 
-
-Optional field, cardinality 0 or 1. If `line type` (column 8) is equal to `SUMMARY`, this field is not provided, see column 9 description for more details.
+Name of `ECO ID`, defined in column 10. 
 
 #### Reference ID (column 12)
 
-Unique identifier of a single source, cited as an authority for asserting the relation. Note that only one reference can be cited on a single line in the annotation file (and only one evidence from this reference can be cited on a single line).
+Unique identifier of a single source, cited as an authority for asserting the relation. Note that only one reference 
+can be cited on a single line in the `raw_similarity_annotations.tsv` file (and only one evidence from this reference 
+can be cited on a single line).
 
-If `line type` (column 8) is equal to `RAW`, this field is required, cardinality 1. If `line type` is equal to `SUMMARY`, this field is not provided, cardinality 0 (as the aim of such lines are to summarize several evidences, potentially from several references, that can be retrieved from the individual `RAW` annotations).
+This field is mandatory and present only in the file `raw_similarity_annotations.tsv`.
 
 #### Reference title (column 13)
 
-Title of the reference defined in `reference ID` (column 13).
-
-Optional field, cardinality 0 or 1.
+Title of the reference defined in `reference ID` (column 12).
 
 #### Supporting text (column 14)
 
-A quote from the reference defined in column 13, supporting the annotation. If possible, it should also support the choice of the `ECO ID` (column 9).
+A quote from the reference defined in column 12, supporting the annotation. If possible, it should also support 
+the choice of the `ECO ID` (column 10).
 
-If `line type` (column 8) is equal to `RAW`, this field is required, cardinality 1. If `line type` is equal to `SUMMARY`, this field is not provided.
+This field is mandatory and present only in the file `raw_similarity_annotations.tsv`.
 
 #### Assigned by (column 15)
 
 The database which made the annotation. Used for tracking the source of an individual annotation. 
 
-Required field, cardinality 1.
+This field is mandatory and present only in the file `raw_similarity_annotations.tsv`.
 
 #### Curator (column 16)
 
-A code allowing to identify the curator who made the annotation, from the database defined in column 16.
+A code allowing to identify the curator who made the annotation, from the database defined in column 15.
 
-Optional field, cardinality 0 or 1.
+This field is mandatory and present only in the file `raw_similarity_annotations.tsv`.
 
 #### Date (column 17)
 
 Date on which the annotation was made. Format is `yyyy-MM-dd`.
 
-If `line type` (column 8) is equal to `RAW`, this field is required, cardinality 1. If `line type` is equal to `SUMMARY`, this field is not provided, as such lines are generated automatically at each release.
+This field is mandatory and present only in the file `raw_similarity_annotations.tsv`.
+
+## Relation between developmental structures
+
+Distinctions based on the developmental state of a same organ can be irrelevant when considering similarity annotations. 
+For instance, terms such as ‘future brain’ and ‘brain’, while relevant when considering the developmental lineage of a structure, 
+can correspond to a same common ancestral structure.
+
+The annotations provided here always target entities describing the fully-formed structures, unless a distinction 
+between developmental structures has to be made. Related developmental structures can be retrieved in Uberon using the relations 
+`transformation_of`, and `immediate_transformation_of`.
+
+When using this annotation file, it is recommended to always group entities described in the entity ID field (column 3), 
+as well as any entity **not annotated**, and related to them by a `transformation_of` or `immediate_transformation_of` relation.
