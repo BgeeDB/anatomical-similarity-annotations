@@ -37,7 +37,7 @@ Annotation for interventricular septum (UBERON:0002094):
 * positive annotation on Crocodylia 
 ---
 
-## Multiple-entities annotation
+## Multiple-entity annotation
 
 When more than a structure is annotated for homology,
 
@@ -53,8 +53,32 @@ UBERON:1500000	scapular blade --> Aves
 
 UBERON:0007174	medial border of scapula --> Mammalia
 
-BUT if the single-entity has the same taxon level than the multiple-entities annotation, we do not provide single-entity annotation 
-(ex. lung|swim bladder on Gnathostomata, no single annotation on lung, as the primitive lung is from Gnathostomata too)
+There should **always** be single-entity annotations corresponding to each entity in a multiple-entity annotation.
+
+These multiple-entity annotations are used in two cases:
+* when some structures evolved from an ancestral structure that does not exist anymore in extant species
+* when a structure, still existing in extant species, evolved into a different structure in a taxon
+
+Example 1:
+```
+cranial placode|siphon primordium -> chordata
+cranial placode                   -> vertebrata
+siphon primordium                 -> tunicata
+```
+In that case, it means that the ancestral structure, that the cranial placode and siphon primordium
+evolved from, appeared in chordata, and does not exist anymore in extant species (nor the cranial placode
+nor the siphon primordium existed in the taxon chordata; the single-entity annotations are all annotated
+to taxa different to the multiple-entity annotation).
+
+Example 2:
+```
+lung|swim bladder -> Gnathostomata
+lung              -> Gnathostomata
+swim bladder      -> Actinopterygii
+```
+In that case, the multiple-entity annotation and one of the single-entity annotation (lung) are mapped
+to the same taxon (Gnathostomata). It means that lung is the ancestral structure of swim bladder.
+The lung structure still exists in extant species.
 
 ---
 

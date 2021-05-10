@@ -1,3 +1,9 @@
+1. [Annotation files available for download](#annotation-files-available-for-download)
+  * [File types](#file-types)
+  * [File format](#file-format)
+2. [Annotations with multiple anatomical entities](#annotations-with-multiple-anatomical-entities)
+3. [Relation between developmental structures](#relation-between-developmental-structures)
+
 # Annotation files available for download
 
 Please not that currently these annotation files only allow to annotate **transitive** similarity relations 
@@ -298,7 +304,40 @@ Date on which the annotation was made. Format is `yyyy-MM-dd`.
 
 This field is mandatory and present only in the file `raw_similarity_annotations.tsv`.
 
-## Relation between developmental structures
+# Annotations with multiple anatomical entities
+
+In some cases, more than one anatomical entity can be mapped in an annotation,
+for instance
+```
+UBERON:1500000|UBERON:0007174	scapular blade|medial border of scapula	-> homologous in Amniota
+```
+
+These can represent two senarios:
+* when some structures evolved from an ancestral structure that does not exist anymore in extant species
+* when a structure, still existing in extant species, evolved into a different structure in a taxon
+
+Example 1:
+```
+cranial placode|siphon primordium -> Chordata
+cranial placode                   -> Vertebrata
+siphon primordium                 -> Tunicata
+```
+In that case, it means that the ancestral structure, that the cranial placode and siphon primordium
+evolved from, appeared in *Chordata*, and does not exist anymore in extant species (nor the cranial placode
+nor the siphon primordium existed in the taxon *Chordata*; the single-entity annotations are all annotated
+to taxa different to the multiple-entity annotation).
+
+Example 2:
+```
+lung|swim bladder -> Gnathostomata
+lung              -> Gnathostomata
+swim bladder      -> Actinopterygii
+```
+In that case, the multiple-entity annotation and one of the single-entity annotation (lung) are mapped
+to the same taxon (*Gnathostomata*). It means that lung is the ancestral structure of swim bladder.
+The lung structure still exists in extant species.
+
+# Relation between developmental structures
 
 Distinctions based on the developmental state of a same organ can be irrelevant when considering similarity annotations. 
 For instance, terms such as ‘future brain’ and ‘brain’, while relevant when considering the developmental lineage of a structure, 
